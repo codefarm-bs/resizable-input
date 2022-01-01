@@ -5,7 +5,7 @@
 
 An simple customizable input for vue that resizes itself to the its content.
 
-![](https://https://github.com/codefarm-bs/resizable-input/tree/master/assets/image.png)
+![](https://github.com/codefarm-bs/resizable-input/blob/master/assets/image.png?raw=true)
 
 
 # 🛠️ Getting started

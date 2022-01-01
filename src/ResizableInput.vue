@@ -1,12 +1,6 @@
 <template>
    <div>
-        <span :class="inputCss"
-              :placeholder="placeholder"
-              @keydown="onchanging"
-              ref="textInput"
-              role="textbox"
-              contenteditable>
-        </span>
+      <span :class="inputCss" :placeholder="placeholder" @keydown="onchanging" ref="textInput" role="textbox" contenteditable></span>
       <div :class="helperCss" v-if="hasHelper">{{ this.characterCount + '/' + this.max }}</div>
    </div>
 </template>
@@ -39,7 +33,7 @@ export default {
          type: Boolean,
          default: true
       },
-      enterable:{
+      enterable: {
          type: Boolean,
          default: true
       }
