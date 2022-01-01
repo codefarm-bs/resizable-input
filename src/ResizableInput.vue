@@ -7,7 +7,7 @@
               role="textbox"
               contenteditable>
         </span>
-      <div :class="helperCss">{{ this.characterCount + '/' + this.max }}</div>
+      <div :class="helperCss" v-if="hasHelper">{{ this.characterCount + '/' + this.max }}</div>
    </div>
 </template>
 
@@ -15,7 +15,10 @@
 export default {
    props: {
       value: String,
-      max: Number,
+      max: {
+         type: Number,
+         default: 100
+      },
       placeholder: {
          type: String,
          default: "Enter your text ..."
@@ -31,6 +34,10 @@ export default {
       helperCss: {
          type: String,
          default: 'text-sm text-gray-500 mt-1'
+      },
+      hasHelper: {
+         type: Boolean,
+         default: true
       },
       enterable:{
          type: Boolean,

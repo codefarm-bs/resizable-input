@@ -1,6 +1,6 @@
 {
   "name": "v-resizable-input",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "An input for vue that resizes itself to the its content.",
   "sideeffects": false,
   "keywords": [
@@ -17,10 +17,14 @@
     "name": "codefarm.dev",
     "email": "codefarm.bs@gmail.com"
   },
-  "license": "MIT",
+  "main": "src/index.js",
   "scripts": {
-    "build": "webpack --config webpack.config.js"
+    "serve": "vue-cli-service serve",
+    "build": "webpack --config config/webpack.config.js",
+    "build:docs": "vue-cli-service build",
+    "lint": "vue-cli-service lint"
   },
+  "license": "MIT",
   "dependencies": {
     "core-js": "^3.6.5",
     "vue": "^2.6.11"
