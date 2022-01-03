@@ -1,6 +1,6 @@
 {
   "name": "v-resizable-input",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "An input for vue that resizes itself to the its content.",
   "sideeffects": false,
   "keywords": [
