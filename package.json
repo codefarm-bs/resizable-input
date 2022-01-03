@@ -74,9 +74,9 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/codefarm-bs/resizable-textbox"
+    "url": "git+https://github.com/codefarm-bs/resizable-input"
   },
   "bugs": {
-    "url": "https://github.com/codefarm-bs/resizable-textbox/issues"
+    "url": "https://github.com/codefarm-bs/resizable-input/issues"
   }
 }
